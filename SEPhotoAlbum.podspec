@@ -27,5 +27,5 @@ Pod::Spec.new do |s|
       s.resource_bundles = {
          'SEPhotoAlbum' => ['SEPhotoAlbum/Assets/*.png']
       }
-  end≥
+  end
 end
