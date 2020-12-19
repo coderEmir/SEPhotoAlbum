@@ -1,0 +1,16 @@
+PODS:
+  - SEPhotoAlbum (0.1.0)
+
+DEPENDENCIES:
+  - SEPhotoAlbum (from `../`)
+
+EXTERNAL SOURCES:
+  SEPhotoAlbum:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SEPhotoAlbum: 29f896a9c76acd5eb0a80a930df3f4f9b6ee887b
+
+PODFILE CHECKSUM: 98c80aca2e217558dcee64f96faca47820f98c2d
+
+COCOAPODS: 1.9.1

@@ -35,5 +35,11 @@
 		<string>UIInterfaceOrientationPortrait</string>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>camera</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>album save</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>album read</string>
 </dict>
 </plist>

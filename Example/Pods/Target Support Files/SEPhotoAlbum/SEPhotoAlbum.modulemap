@@ -1,0 +1,6 @@
+framework module SEPhotoAlbum {
+  umbrella header "SEPhotoAlbum-umbrella.h"
+
+  export *
+  module * { export * }
+}

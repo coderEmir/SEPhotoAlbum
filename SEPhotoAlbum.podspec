@@ -21,21 +21,25 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/17629918/SEPhotoAlbum'
+  s.homepage         = 'https://github.com/seeEmil/SEPhotoAlbum'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '17629918' => '864009759@qq.com' }
+  s.author           = { 'seeEmil' => '864009759@qq.com' }
   s.source           = { :git => 'https://github.com/17629918/SEPhotoAlbum.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
-
-  s.source_files = 'SEPhotoAlbum/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'SEPhotoAlbum' => ['SEPhotoAlbum/Assets/*.png']
-  # }
-
+  if ENV['is_source']
+      s.source_files = 'SEPhotoAlbum/Classes/**/*.swift'
+      s.resource_bundles = {
+         'SEPhotoAlbum' => ['SEPhotoAlbum/Assets/*.png']
+      }
+  else
+      s.vendored_frameworks = 'SEPhotoAlbum/Products/SEPhotoAlbum.framework'
+      s.resource_bundles = {
+         'SEPhotoAlbum' => ['SEPhotoAlbum/Assets/*.png']
+      }
+  end
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'

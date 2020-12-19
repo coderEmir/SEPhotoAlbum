@@ -1,5 +1,4 @@
 import XCTest
-import SEPhotoAlbum
 
 class Tests: XCTestCase {
     
