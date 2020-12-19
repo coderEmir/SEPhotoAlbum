@@ -1,8 +1,8 @@
 {
   "name": "SEPhotoAlbum",
   "version": "0.1.0",
-  "summary": "A short description of SEPhotoAlbum.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "photo album.",
+  "description": "swift photo album for iOS.",
   "homepage": "https://github.com/seeEmil/SEPhotoAlbum",
   "license": {
     "type": "MIT",
