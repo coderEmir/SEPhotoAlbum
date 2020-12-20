@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'seeEmil' => '864009759@qq.com' }
   s.source           = { :git => 'https://github.com/seeEmil/SEPhotoAlbum.git', :tag => s.version.to_s }
-
+  s.pod_target_xcconfig = { 'VALID_ARCHS[sdk=iphonesimulator*]' => '' }
   s.ios.deployment_target = '9.0'
   
   s.frameworks = 'libswiftCore','libswiftCoreFoundation','libswiftCoreGraphics','libswiftCoreImage','libswiftDarwin','libswiftDispatch','libswiftFoundation','libswiftMetal','libswiftObjectiveC','libswiftos','libswiftQuartzCore','libswiftUIKit'
