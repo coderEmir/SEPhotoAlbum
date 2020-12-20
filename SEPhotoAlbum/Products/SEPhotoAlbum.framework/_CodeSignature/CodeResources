@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/SEPhotoAlbum-Swift.h</key>
 		<data>
-		ra5lLF3YxA+Hrgi2PrgD+vrVpNs=
+		RuGHrLHATOX4bE1ht5INYvy1CkM=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -14,19 +14,19 @@
 		</data>
 		<key>Modules/SEPhotoAlbum.swiftmodule/Project/i386-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		fxPa2wTuztiH5XZ2bF6sTp0bilc=
+		vMofo8RwYZmnX2jpO08mXCIqyF8=
 		</data>
 		<key>Modules/SEPhotoAlbum.swiftmodule/Project/i386.swiftsourceinfo</key>
 		<data>
-		fxPa2wTuztiH5XZ2bF6sTp0bilc=
+		vMofo8RwYZmnX2jpO08mXCIqyF8=
 		</data>
 		<key>Modules/SEPhotoAlbum.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		bFGugee/lcyzyb3jCkrDwPxWn9w=
+		goruyvKMC5rKc2qbUHnwQY/F0GE=
 		</data>
 		<key>Modules/SEPhotoAlbum.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<data>
-		bFGugee/lcyzyb3jCkrDwPxWn9w=
+		goruyvKMC5rKc2qbUHnwQY/F0GE=
 		</data>
 		<key>Modules/SEPhotoAlbum.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/SEPhotoAlbum.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<data>
-		3Czau90Uc2/VRbB/wcgKHMiXXuw=
+		WYur39o8DpETM2Yg1mF+/Bj7y1A=
 		</data>
 		<key>Modules/SEPhotoAlbum.swiftmodule/i386.swiftdoc</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/SEPhotoAlbum.swiftmodule/i386.swiftmodule</key>
 		<data>
-		3Czau90Uc2/VRbB/wcgKHMiXXuw=
+		WYur39o8DpETM2Yg1mF+/Bj7y1A=
 		</data>
 		<key>Modules/SEPhotoAlbum.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/SEPhotoAlbum.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		OxF7hT0ZtsZ3qEceN4m4IDAIYaI=
+		hC55m5L5olMqU83oblVGTaZOclc=
 		</data>
 		<key>Modules/SEPhotoAlbum.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -58,55 +58,11 @@
 		</data>
 		<key>Modules/SEPhotoAlbum.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		OxF7hT0ZtsZ3qEceN4m4IDAIYaI=
+		hC55m5L5olMqU83oblVGTaZOclc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		PcmLf/WMCw/Mue0anGVi1v92kdY=
-		</data>
-		<key>SEPhotoAlbum.bundle/se_back@2x.png</key>
-		<data>
-		YAw+qT/qzk2XWAnRUWyh9M7r/hI=
-		</data>
-		<key>SEPhotoAlbum.bundle/se_back@3x.png</key>
-		<data>
-		Xt0k3TaNsD9tR8rDwQ4whiITPgU=
-		</data>
-		<key>SEPhotoAlbum.bundle/se_camera@2x.png</key>
-		<data>
-		MNNTICuGYZSOTVN0aC2Ep7S9IUM=
-		</data>
-		<key>SEPhotoAlbum.bundle/se_cancel@2x.png</key>
-		<data>
-		2NEy2/dWZCuk+xukDNU6HKfv3bI=
-		</data>
-		<key>SEPhotoAlbum.bundle/se_cancel@3x.png</key>
-		<data>
-		lJMK0VgEFx5osZHk9oD7bHO69fU=
-		</data>
-		<key>SEPhotoAlbum.bundle/se_confirm@2x.png</key>
-		<data>
-		2aOicwb73VKwDzH+Qz4TaFu7Hho=
-		</data>
-		<key>SEPhotoAlbum.bundle/se_confirm@3x.png</key>
-		<data>
-		7zJtAtTVnbAwJNKEe1U+oMDQ150=
-		</data>
-		<key>SEPhotoAlbum.bundle/se_edited@2x.png</key>
-		<data>
-		cCt475aPBuVX4sss8ls8RLeN4fA=
-		</data>
-		<key>SEPhotoAlbum.bundle/se_edited@3x.png</key>
-		<data>
-		cfrdHdtTUly5e4YPp/fdjaTNsNQ=
-		</data>
-		<key>SEPhotoAlbum.bundle/se_select@2x.png</key>
-		<data>
-		pebEltJ6rlUHugVxqlP/tVICETA=
-		</data>
-		<key>SEPhotoAlbum.bundle/se_select@3x.png</key>
-		<data>
-		gcnJvGGjT1zGmReQK3zY3hdecjE=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -115,55 +71,55 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ra5lLF3YxA+Hrgi2PrgD+vrVpNs=
+			RuGHrLHATOX4bE1ht5INYvy1CkM=
 			</data>
 			<key>hash2</key>
 			<data>
-			MDb298pAmWeqZ2YS4gNFXH9gS44bOb8RBx8zYyuv+sA=
+			76eb8c+ZxKqWYWcEzoVNKe/Tm+7BBL7klJyy6y8WJ5s=
 			</data>
 		</dict>
 		<key>Modules/SEPhotoAlbum.swiftmodule/Project/i386-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fxPa2wTuztiH5XZ2bF6sTp0bilc=
+			vMofo8RwYZmnX2jpO08mXCIqyF8=
 			</data>
 			<key>hash2</key>
 			<data>
-			jnEUAWEpIRxgt41IHvif9EW1ckPv3OLqNA/q8V2n+18=
+			kLZ+tFTwe7/sdr2pjZ773h+dej/yCry2IDfFjOOPLVs=
 			</data>
 		</dict>
 		<key>Modules/SEPhotoAlbum.swiftmodule/Project/i386.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fxPa2wTuztiH5XZ2bF6sTp0bilc=
+			vMofo8RwYZmnX2jpO08mXCIqyF8=
 			</data>
 			<key>hash2</key>
 			<data>
-			jnEUAWEpIRxgt41IHvif9EW1ckPv3OLqNA/q8V2n+18=
+			kLZ+tFTwe7/sdr2pjZ773h+dej/yCry2IDfFjOOPLVs=
 			</data>
 		</dict>
 		<key>Modules/SEPhotoAlbum.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bFGugee/lcyzyb3jCkrDwPxWn9w=
+			goruyvKMC5rKc2qbUHnwQY/F0GE=
 			</data>
 			<key>hash2</key>
 			<data>
-			zqKwf47X6AhC1Hd5vLGSfggSvd9N55yQCiRB2qYxG9U=
+			8f6MU/NBGYFWoorL0yM+Vn3qVHwJvEPWJEjpe6QXYWM=
 			</data>
 		</dict>
 		<key>Modules/SEPhotoAlbum.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bFGugee/lcyzyb3jCkrDwPxWn9w=
+			goruyvKMC5rKc2qbUHnwQY/F0GE=
 			</data>
 			<key>hash2</key>
 			<data>
-			zqKwf47X6AhC1Hd5vLGSfggSvd9N55yQCiRB2qYxG9U=
+			8f6MU/NBGYFWoorL0yM+Vn3qVHwJvEPWJEjpe6QXYWM=
 			</data>
 		</dict>
 		<key>Modules/SEPhotoAlbum.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
@@ -181,11 +137,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3Czau90Uc2/VRbB/wcgKHMiXXuw=
+			WYur39o8DpETM2Yg1mF+/Bj7y1A=
 			</data>
 			<key>hash2</key>
 			<data>
-			OFuppGJ6DeTl8X0ECdfTteLW1FevikoUNWhaltLXKSA=
+			MFeFoLEU+u2kbcG1ORurWd+HQkfcddcOtYUAjHTDnYA=
 			</data>
 		</dict>
 		<key>Modules/SEPhotoAlbum.swiftmodule/i386.swiftdoc</key>
@@ -203,11 +159,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3Czau90Uc2/VRbB/wcgKHMiXXuw=
+			WYur39o8DpETM2Yg1mF+/Bj7y1A=
 			</data>
 			<key>hash2</key>
 			<data>
-			OFuppGJ6DeTl8X0ECdfTteLW1FevikoUNWhaltLXKSA=
+			MFeFoLEU+u2kbcG1ORurWd+HQkfcddcOtYUAjHTDnYA=
 			</data>
 		</dict>
 		<key>Modules/SEPhotoAlbum.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -225,11 +181,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			OxF7hT0ZtsZ3qEceN4m4IDAIYaI=
+			hC55m5L5olMqU83oblVGTaZOclc=
 			</data>
 			<key>hash2</key>
 			<data>
-			fDUQSPLHisFjtm1RsEpjQxhbn+7ggpu1Wynop52PWxc=
+			1pqi0MiBsZPtMCyxKgNSrjrqX0ycif4doS0cRh/omlY=
 			</data>
 		</dict>
 		<key>Modules/SEPhotoAlbum.swiftmodule/x86_64.swiftdoc</key>
@@ -247,11 +203,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			OxF7hT0ZtsZ3qEceN4m4IDAIYaI=
+			hC55m5L5olMqU83oblVGTaZOclc=
 			</data>
 			<key>hash2</key>
 			<data>
-			fDUQSPLHisFjtm1RsEpjQxhbn+7ggpu1Wynop52PWxc=
+			1pqi0MiBsZPtMCyxKgNSrjrqX0ycif4doS0cRh/omlY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -263,127 +219,6 @@
 			<key>hash2</key>
 			<data>
 			pxyzo7koSiVvCwS1f2ltMJO5R/0g5/UNkNM1KBzwfGk=
-			</data>
-		</dict>
-		<key>SEPhotoAlbum.bundle/se_back@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			YAw+qT/qzk2XWAnRUWyh9M7r/hI=
-			</data>
-			<key>hash2</key>
-			<data>
-			ajhKu2cqufJiLeAJZW+XYz2nFht2uQs1bWovfP5FpS4=
-			</data>
-		</dict>
-		<key>SEPhotoAlbum.bundle/se_back@3x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Xt0k3TaNsD9tR8rDwQ4whiITPgU=
-			</data>
-			<key>hash2</key>
-			<data>
-			/ATpORpOJnLlI2ywLekd1Tm+q/ZYo4r0zgYwQESbkRY=
-			</data>
-		</dict>
-		<key>SEPhotoAlbum.bundle/se_camera@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			MNNTICuGYZSOTVN0aC2Ep7S9IUM=
-			</data>
-			<key>hash2</key>
-			<data>
-			YaCbpKbn03dtStul0URatrwUf0W34645UZeykA1Ol6Q=
-			</data>
-		</dict>
-		<key>SEPhotoAlbum.bundle/se_cancel@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			2NEy2/dWZCuk+xukDNU6HKfv3bI=
-			</data>
-			<key>hash2</key>
-			<data>
-			AYjlchoSM/ocUNvA55bSIE5AsfS4DOMH+b9mP/3Ukz8=
-			</data>
-		</dict>
-		<key>SEPhotoAlbum.bundle/se_cancel@3x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			lJMK0VgEFx5osZHk9oD7bHO69fU=
-			</data>
-			<key>hash2</key>
-			<data>
-			aKm0HBKdyIIMmpeMqldRvaCdq28+WMrjEUqKbcQdWUo=
-			</data>
-		</dict>
-		<key>SEPhotoAlbum.bundle/se_confirm@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			2aOicwb73VKwDzH+Qz4TaFu7Hho=
-			</data>
-			<key>hash2</key>
-			<data>
-			5RPArWvxw8593MRzzZbiBQs/N4YfKOOvZUSeFXFsOrE=
-			</data>
-		</dict>
-		<key>SEPhotoAlbum.bundle/se_confirm@3x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			7zJtAtTVnbAwJNKEe1U+oMDQ150=
-			</data>
-			<key>hash2</key>
-			<data>
-			wkfmJgln/Kon+pn2khQGCbNzE4PqqYg8IieU8nEb9d0=
-			</data>
-		</dict>
-		<key>SEPhotoAlbum.bundle/se_edited@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			cCt475aPBuVX4sss8ls8RLeN4fA=
-			</data>
-			<key>hash2</key>
-			<data>
-			i8YzAapZ3SXwsPL8UuV5hcsrk5dM392+nf+KtlCEYZ0=
-			</data>
-		</dict>
-		<key>SEPhotoAlbum.bundle/se_edited@3x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			cfrdHdtTUly5e4YPp/fdjaTNsNQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			mx5ZHzm7/NQAHZPxnSPf078pXfI32VLbgamG5dQqNzU=
-			</data>
-		</dict>
-		<key>SEPhotoAlbum.bundle/se_select@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			pebEltJ6rlUHugVxqlP/tVICETA=
-			</data>
-			<key>hash2</key>
-			<data>
-			ioi/aHB/HBdh+kCZ9EHO3WQ9hFkfG6QwYMKcTNPAwIw=
-			</data>
-		</dict>
-		<key>SEPhotoAlbum.bundle/se_select@3x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			gcnJvGGjT1zGmReQK3zY3hdecjE=
-			</data>
-			<key>hash2</key>
-			<data>
-			hYfXFs/J5hqAetHls076L9Es2j5nBoZ9CuLvmwQ5Tmg=
 			</data>
 		</dict>
 	</dict>

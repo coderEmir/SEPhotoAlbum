@@ -9,7 +9,7 @@
 import UIKit
 
 @objc public class SEImageAlbumManager : NSObject {
-    @objc static public func preventImageViewController(superViewController :UIViewController, maxSelectCount :Int, isSelectedFinishDismiss: Bool, isCustomEdit: Bool,_ selectImagesBlock :@escaping ([UIImage]) -> ()) {
+    @objc static public func preventImageViewController(superViewController :UIViewController, maxSelectCount :Int, isSelectedFinishDismiss: Bool, isCustomEdit: Bool,_ selectImagesBlock :@escaping (_ controller: UIViewController,_ images: [UIImage]) -> ()) {
         let imagePircker = SEImagePickerController()
         imagePircker.mediaTypes = [.image]
         imagePircker.selectedImages = selectImagesBlock

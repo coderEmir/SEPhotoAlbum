@@ -212,7 +212,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 SWIFT_CLASS("_TtC12SEPhotoAlbum19SEImageAlbumManager")
 @interface SEImageAlbumManager : NSObject
-+ (void)preventImageViewControllerWithSuperViewController:(UIViewController * _Nonnull)superViewController maxSelectCount:(NSInteger)maxSelectCount isSelectedFinishDismiss:(BOOL)isSelectedFinishDismiss isCustomEdit:(BOOL)isCustomEdit :(void (^ _Nonnull)(NSArray<UIImage *> * _Nonnull))selectImagesBlock;
++ (void)preventImageViewControllerWithSuperViewController:(UIViewController * _Nonnull)superViewController maxSelectCount:(NSInteger)maxSelectCount isSelectedFinishDismiss:(BOOL)isSelectedFinishDismiss isCustomEdit:(BOOL)isCustomEdit :(void (^ _Nonnull)(UIViewController * _Nonnull, NSArray<UIImage *> * _Nonnull))selectImagesBlock;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -442,7 +442,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 SWIFT_CLASS("_TtC12SEPhotoAlbum19SEImageAlbumManager")
 @interface SEImageAlbumManager : NSObject
-+ (void)preventImageViewControllerWithSuperViewController:(UIViewController * _Nonnull)superViewController maxSelectCount:(NSInteger)maxSelectCount isSelectedFinishDismiss:(BOOL)isSelectedFinishDismiss isCustomEdit:(BOOL)isCustomEdit :(void (^ _Nonnull)(NSArray<UIImage *> * _Nonnull))selectImagesBlock;
++ (void)preventImageViewControllerWithSuperViewController:(UIViewController * _Nonnull)superViewController maxSelectCount:(NSInteger)maxSelectCount isSelectedFinishDismiss:(BOOL)isSelectedFinishDismiss isCustomEdit:(BOOL)isCustomEdit :(void (^ _Nonnull)(UIViewController * _Nonnull, NSArray<UIImage *> * _Nonnull))selectImagesBlock;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 

@@ -17,7 +17,7 @@ class ViewController: UIViewController {
 
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        SEImageAlbumManager.preventImageViewController(superViewController: self, maxSelectCount: 100, isSelectedFinishDismiss: true, isCustomEdit: false) { images in
+        SEImageAlbumManager.preventImageViewController(superViewController: self, maxSelectCount: 90, isSelectedFinishDismiss: true, isCustomEdit: true) { (controller, images) in
             
         }
     }

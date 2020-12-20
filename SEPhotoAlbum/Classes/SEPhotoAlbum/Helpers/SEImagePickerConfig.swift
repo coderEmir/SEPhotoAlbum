@@ -98,12 +98,9 @@ func se_generateOriginBtnImage(_ color: UIColor? = nil) -> UIImage? {
     return UIImage(cgImage: imageRef, scale: scale, orientation: .up)
 }
 
-
 func imagePathWith(imageName: String, currentClass: Any) -> String {
     let bundleName = "SEPhotoAlbum.bundle"
-    let bundlePath = (Bundle(for: currentClass as! AnyClass).path(forResource: bundleName, ofType: nil) ?? "") as NSString
-    let frameworkFilePath = Bundle(for: currentClass as! AnyClass).path(forResource: imageName + "@2x.png", ofType: nil, inDirectory: bundleName)
-    let codeFilePath = bundlePath.appendingPathComponent((imageName + "@2x.png"))
-    let path = codeFilePath.count > 0 ? codeFilePath : frameworkFilePath
-    return path ?? ""
+    let codeBundlePath = (Bundle(for: currentClass as! AnyClass).path(forResource: bundleName, ofType: nil) ?? "") as NSString
+    let filePath = codeBundlePath.appendingPathComponent((imageName + "@2x.png"))
+    return filePath
 }

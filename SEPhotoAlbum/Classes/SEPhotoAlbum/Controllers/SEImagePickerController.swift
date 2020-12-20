@@ -8,7 +8,7 @@
 
 import UIKit
 import Photos
-typealias SelectedImagesBlock = ([UIImage]) -> ()
+typealias SelectedImagesBlock = (_ controller: UIViewController,_ images: [UIImage]) -> ()
 // MARK: -  代理
 @objc protocol SEImagePickerControllerDelegate: class {
     
@@ -168,7 +168,7 @@ class SEImagePickerController: UINavigationController {
                 }
                 
                 self.se_delegate?.imagePickerController?(self, didSelected: images)
-                self.selectedImages!(images)
+                self.selectedImages!(self,images)
                 if self.isSelectedFinishDismiss {
                     self.dismiss(animated: true, completion: nil)
                 }

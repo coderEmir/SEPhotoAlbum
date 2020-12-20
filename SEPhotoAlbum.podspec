@@ -18,8 +18,6 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = { 'VALID_ARCHS[sdk=iphonesimulator*]' => '' }
   s.ios.deployment_target = '9.0'
   
-  s.frameworks = 'libswiftCore','libswiftCoreFoundation','libswiftCoreGraphics','libswiftCoreImage','libswiftDarwin','libswiftDispatch','libswiftFoundation','libswiftMetal','libswiftObjectiveC','libswiftos','libswiftQuartzCore','libswiftUIKit'
-  
   if ENV['is_source']
       s.source_files = 'SEPhotoAlbum/Classes/**/*.swift'
       s.resource_bundles = {
