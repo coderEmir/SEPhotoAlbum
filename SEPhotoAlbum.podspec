@@ -14,9 +14,12 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/seeEmil/SEPhotoAlbum'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'seeEmil' => '864009759@qq.com' }
-  s.source           = { :git => 'https://github.com/17629918/SEPhotoAlbum.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/seeEmil/SEPhotoAlbum.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
+  
+  s.frameworks = 'libswiftCore','libswiftCoreFoundation','libswiftCoreGraphics','libswiftCoreImage','libswiftDarwin','libswiftDispatch','libswiftFoundation','libswiftMetal','libswiftObjectiveC','libswiftos','libswiftQuartzCore','libswiftUIKit'
+  
   if ENV['is_source']
       s.source_files = 'SEPhotoAlbum/Classes/**/*.swift'
       s.resource_bundles = {
