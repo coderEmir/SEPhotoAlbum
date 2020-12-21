@@ -19,14 +19,11 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
   
   if ENV['is_source']
-      s.source_files = 'SEPhotoAlbum/Classes/**/*.swift'
-      s.resource_bundles = {
-         'SEPhotoAlbum' => ['SEPhotoAlbum/Assets/*.png']
-      }
+      s.source_files = 'SEPhotoAlbum/Classes/**/*'
   else
       s.vendored_frameworks = 'SEPhotoAlbum/Products/SEPhotoAlbum.framework'
-      s.resource_bundles = {
-         'SEPhotoAlbum' => ['SEPhotoAlbum/Assets/*.png']
-      }
   end
+  s.resource_bundles = {
+     'SEPhotoAlbum' => ['SEPhotoAlbum/Assets/*.png']
+  }
 end

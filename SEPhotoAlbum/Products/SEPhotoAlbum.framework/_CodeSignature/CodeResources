@@ -6,59 +6,71 @@
 	<dict>
 		<key>Headers/SEPhotoAlbum-Swift.h</key>
 		<data>
-		RuGHrLHATOX4bE1ht5INYvy1CkM=
+		Cv5wxXxwt+H1FN8lzizmTaIUFpA=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		k+el5C1vxl882UzTYhbqKLLzHiY=
+		Y54zMcekQJb9oTXG1Kcd6nf+/cU=
 		</data>
-		<key>Modules/SEPhotoAlbum.swiftmodule/Project/i386-apple-ios-simulator.swiftsourceinfo</key>
+		<key>Modules/SEPhotoAlbum.swiftmodule/Project/arm.swiftsourceinfo</key>
 		<data>
-		vMofo8RwYZmnX2jpO08mXCIqyF8=
+		NJuBgqbiBcpNzbqLFh7d+KVCANI=
 		</data>
-		<key>Modules/SEPhotoAlbum.swiftmodule/Project/i386.swiftsourceinfo</key>
+		<key>Modules/SEPhotoAlbum.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		vMofo8RwYZmnX2jpO08mXCIqyF8=
+		iA9y/XdE3cC06g/FMS7gCbJT2tM=
 		</data>
-		<key>Modules/SEPhotoAlbum.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
+		<key>Modules/SEPhotoAlbum.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		goruyvKMC5rKc2qbUHnwQY/F0GE=
+		iA9y/XdE3cC06g/FMS7gCbJT2tM=
 		</data>
-		<key>Modules/SEPhotoAlbum.swiftmodule/Project/x86_64.swiftsourceinfo</key>
+		<key>Modules/SEPhotoAlbum.swiftmodule/Project/armv7-apple-ios.swiftsourceinfo</key>
 		<data>
-		goruyvKMC5rKc2qbUHnwQY/F0GE=
+		NJuBgqbiBcpNzbqLFh7d+KVCANI=
 		</data>
-		<key>Modules/SEPhotoAlbum.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
+		<key>Modules/SEPhotoAlbum.swiftmodule/Project/armv7.swiftsourceinfo</key>
 		<data>
-		toKLaTNulwq7XRUzdRz23wTCwYE=
+		NJuBgqbiBcpNzbqLFh7d+KVCANI=
 		</data>
-		<key>Modules/SEPhotoAlbum.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
+		<key>Modules/SEPhotoAlbum.swiftmodule/arm.swiftdoc</key>
 		<data>
-		WYur39o8DpETM2Yg1mF+/Bj7y1A=
+		g9Jn5oBCy4uGFlkFAD9k5AbJ/D4=
 		</data>
-		<key>Modules/SEPhotoAlbum.swiftmodule/i386.swiftdoc</key>
+		<key>Modules/SEPhotoAlbum.swiftmodule/arm.swiftmodule</key>
 		<data>
-		toKLaTNulwq7XRUzdRz23wTCwYE=
+		/zwv9/71ltFEEuhPIxCx1z+GQoY=
 		</data>
-		<key>Modules/SEPhotoAlbum.swiftmodule/i386.swiftmodule</key>
+		<key>Modules/SEPhotoAlbum.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		WYur39o8DpETM2Yg1mF+/Bj7y1A=
+		JV1cYURDhbAjJDQrmcX1Gd4wxDg=
 		</data>
-		<key>Modules/SEPhotoAlbum.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<key>Modules/SEPhotoAlbum.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		21RTPLx3Dje2WuSKoCSv25cVUCQ=
+		7V0s7QSC0oQEHhvU8Ab7FarKUOw=
 		</data>
-		<key>Modules/SEPhotoAlbum.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<key>Modules/SEPhotoAlbum.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		hC55m5L5olMqU83oblVGTaZOclc=
+		JV1cYURDhbAjJDQrmcX1Gd4wxDg=
 		</data>
-		<key>Modules/SEPhotoAlbum.swiftmodule/x86_64.swiftdoc</key>
+		<key>Modules/SEPhotoAlbum.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		21RTPLx3Dje2WuSKoCSv25cVUCQ=
+		7V0s7QSC0oQEHhvU8Ab7FarKUOw=
 		</data>
-		<key>Modules/SEPhotoAlbum.swiftmodule/x86_64.swiftmodule</key>
+		<key>Modules/SEPhotoAlbum.swiftmodule/armv7-apple-ios.swiftdoc</key>
 		<data>
-		hC55m5L5olMqU83oblVGTaZOclc=
+		g9Jn5oBCy4uGFlkFAD9k5AbJ/D4=
+		</data>
+		<key>Modules/SEPhotoAlbum.swiftmodule/armv7-apple-ios.swiftmodule</key>
+		<data>
+		/zwv9/71ltFEEuhPIxCx1z+GQoY=
+		</data>
+		<key>Modules/SEPhotoAlbum.swiftmodule/armv7.swiftdoc</key>
+		<data>
+		g9Jn5oBCy4uGFlkFAD9k5AbJ/D4=
+		</data>
+		<key>Modules/SEPhotoAlbum.swiftmodule/armv7.swiftmodule</key>
+		<data>
+		/zwv9/71ltFEEuhPIxCx1z+GQoY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -71,143 +83,176 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RuGHrLHATOX4bE1ht5INYvy1CkM=
+			Cv5wxXxwt+H1FN8lzizmTaIUFpA=
 			</data>
 			<key>hash2</key>
 			<data>
-			76eb8c+ZxKqWYWcEzoVNKe/Tm+7BBL7klJyy6y8WJ5s=
+			1R87tOk9ognWtzZB1jjV2mR/oT46/+Rrp8Ds7ibOZaM=
 			</data>
 		</dict>
-		<key>Modules/SEPhotoAlbum.swiftmodule/Project/i386-apple-ios-simulator.swiftsourceinfo</key>
+		<key>Modules/SEPhotoAlbum.swiftmodule/Project/arm.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vMofo8RwYZmnX2jpO08mXCIqyF8=
+			NJuBgqbiBcpNzbqLFh7d+KVCANI=
 			</data>
 			<key>hash2</key>
 			<data>
-			kLZ+tFTwe7/sdr2pjZ773h+dej/yCry2IDfFjOOPLVs=
+			2NY7AGfyGm+/WLrdoQP7XX35nHfhGB0Ou02bujxqGvQ=
 			</data>
 		</dict>
-		<key>Modules/SEPhotoAlbum.swiftmodule/Project/i386.swiftsourceinfo</key>
+		<key>Modules/SEPhotoAlbum.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vMofo8RwYZmnX2jpO08mXCIqyF8=
+			iA9y/XdE3cC06g/FMS7gCbJT2tM=
 			</data>
 			<key>hash2</key>
 			<data>
-			kLZ+tFTwe7/sdr2pjZ773h+dej/yCry2IDfFjOOPLVs=
+			Jmzreg/o/kERkynLl5pkOFjD4agUCG6RRTcQwIXpzX4=
 			</data>
 		</dict>
-		<key>Modules/SEPhotoAlbum.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
+		<key>Modules/SEPhotoAlbum.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			goruyvKMC5rKc2qbUHnwQY/F0GE=
+			iA9y/XdE3cC06g/FMS7gCbJT2tM=
 			</data>
 			<key>hash2</key>
 			<data>
-			8f6MU/NBGYFWoorL0yM+Vn3qVHwJvEPWJEjpe6QXYWM=
+			Jmzreg/o/kERkynLl5pkOFjD4agUCG6RRTcQwIXpzX4=
 			</data>
 		</dict>
-		<key>Modules/SEPhotoAlbum.swiftmodule/Project/x86_64.swiftsourceinfo</key>
+		<key>Modules/SEPhotoAlbum.swiftmodule/Project/armv7-apple-ios.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			goruyvKMC5rKc2qbUHnwQY/F0GE=
+			NJuBgqbiBcpNzbqLFh7d+KVCANI=
 			</data>
 			<key>hash2</key>
 			<data>
-			8f6MU/NBGYFWoorL0yM+Vn3qVHwJvEPWJEjpe6QXYWM=
+			2NY7AGfyGm+/WLrdoQP7XX35nHfhGB0Ou02bujxqGvQ=
 			</data>
 		</dict>
-		<key>Modules/SEPhotoAlbum.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
+		<key>Modules/SEPhotoAlbum.swiftmodule/Project/armv7.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			toKLaTNulwq7XRUzdRz23wTCwYE=
+			NJuBgqbiBcpNzbqLFh7d+KVCANI=
 			</data>
 			<key>hash2</key>
 			<data>
-			/R2T5VeiJAFgHYbRFGQcaOZg2V7oQKe70G9q92Pj4jo=
+			2NY7AGfyGm+/WLrdoQP7XX35nHfhGB0Ou02bujxqGvQ=
 			</data>
 		</dict>
-		<key>Modules/SEPhotoAlbum.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
+		<key>Modules/SEPhotoAlbum.swiftmodule/arm.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			WYur39o8DpETM2Yg1mF+/Bj7y1A=
+			g9Jn5oBCy4uGFlkFAD9k5AbJ/D4=
 			</data>
 			<key>hash2</key>
 			<data>
-			MFeFoLEU+u2kbcG1ORurWd+HQkfcddcOtYUAjHTDnYA=
+			/5api1pVz2UdVV0Qn+rBVVj/LssKXvNVqZ12fSTaCZE=
 			</data>
 		</dict>
-		<key>Modules/SEPhotoAlbum.swiftmodule/i386.swiftdoc</key>
+		<key>Modules/SEPhotoAlbum.swiftmodule/arm.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			toKLaTNulwq7XRUzdRz23wTCwYE=
+			/zwv9/71ltFEEuhPIxCx1z+GQoY=
 			</data>
 			<key>hash2</key>
 			<data>
-			/R2T5VeiJAFgHYbRFGQcaOZg2V7oQKe70G9q92Pj4jo=
+			ibRtvZQFuq1SkdSLiDYuoTmEk8NuAY2UrCMxD9ZFFRM=
 			</data>
 		</dict>
-		<key>Modules/SEPhotoAlbum.swiftmodule/i386.swiftmodule</key>
+		<key>Modules/SEPhotoAlbum.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			WYur39o8DpETM2Yg1mF+/Bj7y1A=
+			JV1cYURDhbAjJDQrmcX1Gd4wxDg=
 			</data>
 			<key>hash2</key>
 			<data>
-			MFeFoLEU+u2kbcG1ORurWd+HQkfcddcOtYUAjHTDnYA=
+			80asF9zduY5ZtYZxNJ+QnLFFz6lAOGJk7JBSvH7Kmfo=
 			</data>
 		</dict>
-		<key>Modules/SEPhotoAlbum.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<key>Modules/SEPhotoAlbum.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			21RTPLx3Dje2WuSKoCSv25cVUCQ=
+			7V0s7QSC0oQEHhvU8Ab7FarKUOw=
 			</data>
 			<key>hash2</key>
 			<data>
-			fFtRFqqY/QAgR2la96dogXQATra7Nqj2mo9brHsGKCk=
+			zjssii64x56nwBNuNOZPQWIx8z+bYmfFu+1Y6RKezpo=
 			</data>
 		</dict>
-		<key>Modules/SEPhotoAlbum.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<key>Modules/SEPhotoAlbum.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hC55m5L5olMqU83oblVGTaZOclc=
+			JV1cYURDhbAjJDQrmcX1Gd4wxDg=
 			</data>
 			<key>hash2</key>
 			<data>
-			1pqi0MiBsZPtMCyxKgNSrjrqX0ycif4doS0cRh/omlY=
+			80asF9zduY5ZtYZxNJ+QnLFFz6lAOGJk7JBSvH7Kmfo=
 			</data>
 		</dict>
-		<key>Modules/SEPhotoAlbum.swiftmodule/x86_64.swiftdoc</key>
+		<key>Modules/SEPhotoAlbum.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			21RTPLx3Dje2WuSKoCSv25cVUCQ=
+			7V0s7QSC0oQEHhvU8Ab7FarKUOw=
 			</data>
 			<key>hash2</key>
 			<data>
-			fFtRFqqY/QAgR2la96dogXQATra7Nqj2mo9brHsGKCk=
+			zjssii64x56nwBNuNOZPQWIx8z+bYmfFu+1Y6RKezpo=
 			</data>
 		</dict>
-		<key>Modules/SEPhotoAlbum.swiftmodule/x86_64.swiftmodule</key>
+		<key>Modules/SEPhotoAlbum.swiftmodule/armv7-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hC55m5L5olMqU83oblVGTaZOclc=
+			g9Jn5oBCy4uGFlkFAD9k5AbJ/D4=
 			</data>
 			<key>hash2</key>
 			<data>
-			1pqi0MiBsZPtMCyxKgNSrjrqX0ycif4doS0cRh/omlY=
+			/5api1pVz2UdVV0Qn+rBVVj/LssKXvNVqZ12fSTaCZE=
+			</data>
+		</dict>
+		<key>Modules/SEPhotoAlbum.swiftmodule/armv7-apple-ios.swiftmodule</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			/zwv9/71ltFEEuhPIxCx1z+GQoY=
+			</data>
+			<key>hash2</key>
+			<data>
+			ibRtvZQFuq1SkdSLiDYuoTmEk8NuAY2UrCMxD9ZFFRM=
+			</data>
+		</dict>
+		<key>Modules/SEPhotoAlbum.swiftmodule/armv7.swiftdoc</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			g9Jn5oBCy4uGFlkFAD9k5AbJ/D4=
+			</data>
+			<key>hash2</key>
+			<data>
+			/5api1pVz2UdVV0Qn+rBVVj/LssKXvNVqZ12fSTaCZE=
+			</data>
+		</dict>
+		<key>Modules/SEPhotoAlbum.swiftmodule/armv7.swiftmodule</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			/zwv9/71ltFEEuhPIxCx1z+GQoY=
+			</data>
+			<key>hash2</key>
+			<data>
+			ibRtvZQFuq1SkdSLiDYuoTmEk8NuAY2UrCMxD9ZFFRM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
