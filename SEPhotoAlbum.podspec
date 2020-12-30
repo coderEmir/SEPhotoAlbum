@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
   
   if ENV['is_source']
-      s.source_files = 'SEPhotoAlbum/Classes/**/*.swift'
+      s.source_files = 'SEPhotoAlbum/Classes/**/*'
       s.resource_bundles = {
          'SEPhotoAlbum' => ['SEPhotoAlbum/Assets/*.png']
       }
