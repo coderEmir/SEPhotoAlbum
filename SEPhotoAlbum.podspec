@@ -20,13 +20,16 @@ Pod::Spec.new do |s|
   
   if ENV['is_source']
       s.source_files = 'SEPhotoAlbum/Classes/**/*'
+<<<<<<< HEAD
       s.resource_bundles = {
          'SEPhotoAlbum' => ['SEPhotoAlbum/Assets/*.png']
       }
+=======
+>>>>>>> c2178b7b111ba85bd8d5c88db2c037baf5c49ada
   else
       s.vendored_frameworks = 'SEPhotoAlbum/Products/SEPhotoAlbum.framework'
-      s.resource_bundles = {
-         'SEPhotoAlbum' => ['SEPhotoAlbum/Assets/*.png']
-      }
   end
+  s.resource_bundles = {
+     'SEPhotoAlbum' => ['SEPhotoAlbum/Assets/*.png']
+  }
 end
