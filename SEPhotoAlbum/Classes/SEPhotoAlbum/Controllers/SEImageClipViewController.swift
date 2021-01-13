@@ -11,7 +11,8 @@ import UIKit
 class SEImageClipViewController: UIViewController {
     
     var imageModel: SEImageModel?
-    
+    var originImage: UIImage?
+    var clipImageBlock:((_ editImage: UIImage?) -> ())?
     var clipImageCallback: ((SEImageModel) -> ())?
     private var orientation : UIImage.Orientation?
     // MARK: -  懒加载
@@ -22,7 +23,7 @@ class SEImageClipViewController: UIViewController {
         imageToolView.cancelBtn.addTarget(self, action: #selector(cancelBtnClicked), for: .touchUpInside)
         imageToolView.restoreBtn.addTarget(self, action: #selector(restoreBtnClicked), for: .touchUpInside)
         imageToolView.completeBtn.addTarget(self, action: #selector(completeBtnClicked), for: .touchUpInside)
-        imageToolView.rotateBtn.addTarget(self, action: #selector(rotateBtnClicked), for: .touchUpInside)
+//        imageToolView.rotateBtn.addTarget(self, action: #selector(rotateBtnClicked), for: .touchUpInside)
         return imageToolView
     }()
     
@@ -45,7 +46,20 @@ class SEImageClipViewController: UIViewController {
         automaticallyAdjustsScrollViewInsets = false
         view.addSubview(activityView)
         view.addSubview(imageToolView)
+        
+        
+        if originImage != nil {
+            clipImageInScrollView()
+            return
+        }
+        
         setupClipScrollView()
+    }
+    
+    private func clipImageInScrollView() {
+        guard let image = originImage else { return }
+        let contentInset = UIEdgeInsets(top: se_statusBarHeight, left: 0, bottom: toolBarHeight, right: 0)
+        addClipScrollViewWithImage(image, contentInset: contentInset)
     }
     
     private func setupClipScrollView() {
@@ -83,6 +97,7 @@ class SEImageClipViewController: UIViewController {
     
     @objc private func cancelBtnClicked() {
         navigationController?.popViewController(animated: true)
+        self.dismiss(animated: true, completion: nil)
     }
     
     @objc private func restoreBtnClicked() {
@@ -90,32 +105,46 @@ class SEImageClipViewController: UIViewController {
     }
     
     @objc private func completeBtnClicked() {
-        guard let clipScrollView = clipScrollView,
-        let imageModel = imageModel else { return }
+        guard let clipScrollView = clipScrollView else { return }
         activityView.startAnimating()
+        
+        if originImage != nil {
+            
+            clipScrollView.clipImage(isOriginImageSize: true) { [weak self] (image) in
+                guard let `self` = self else { return }
+                self.activityView.stopAnimating()
+                self.clipImageBlock?(image)
+                self.navigationController?.popViewController(animated: true)
+                self.dismiss(animated: true, completion: nil)
+            }
+            return
+        }
+        guard let imageModel = imageModel else { return }
+        
         clipScrollView.clipImage(isOriginImageSize: true) { [weak self] (image) in
             guard let `self` = self else { return }
             self.activityView.stopAnimating()
             imageModel.editedImage = image
             self.clipImageCallback?(imageModel)
             self.navigationController?.popViewController(animated: true)
+            self.dismiss(animated: true, completion: nil)
         }
     }
-    @objc private func rotateBtnClicked() {
-        orientation = clipScrollView?.image?.imageOrientation
-        switch orientation {
-        case .up:
-            orientation = .right
-        case .right:
-            orientation = .down
-        case .down:
-            orientation = .left
-        case .left:
-            orientation = .up
-        
-        default:
-            orientation = .up
-        }
-        clipScrollView?.rotate(orientation: orientation!)
-    }
+//    @objc private func rotateBtnClicked() {
+//        orientation = clipScrollView?.image?.imageOrientation
+//        switch orientation {
+//        case .up:
+//            orientation = .right
+//        case .right:
+//            orientation = .down
+//        case .down:
+//            orientation = .left
+//        case .left:
+//            orientation = .up
+//
+//        default:
+//            orientation = .up
+//        }
+//        clipScrollView?.rotate(orientation: orientation!)
+//    }
 }

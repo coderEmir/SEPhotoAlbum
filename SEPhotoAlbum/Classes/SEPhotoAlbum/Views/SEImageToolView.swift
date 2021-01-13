@@ -126,15 +126,15 @@ class SEImageToolView: UIView {
         return restoreBtn
     }()
     
-    lazy var rotateBtn: UIButton = {
-        let rotateBtn = UIButton()
-        rotateBtn.setTitle("旋转", for: .normal)
-        rotateBtn.setTitleColor(.lightGray, for: .disabled)
-        rotateBtn.setTitleColor(.white, for: .normal)
-        rotateBtn.titleLabel?.font = UIFont.systemFont(ofSize: 15)
-        rotateBtn.isEnabled = false
-        return rotateBtn
-    }()
+//    lazy var rotateBtn: UIButton = {
+//        let rotateBtn = UIButton()
+//        rotateBtn.setTitle("旋转", for: .normal)
+//        rotateBtn.setTitleColor(.lightGray, for: .disabled)
+//        rotateBtn.setTitleColor(.white, for: .normal)
+//        rotateBtn.titleLabel?.font = UIFont.systemFont(ofSize: 15)
+//        rotateBtn.isEnabled = false
+//        return rotateBtn
+//    }()
     
     // 加一条分割线
     lazy var lineView: UIView = {
@@ -179,7 +179,7 @@ class SEImageToolView: UIView {
             contentView.addSubview(cancelBtn)
             contentView.addSubview(completeBtn)
             contentView.addSubview(restoreBtn)
-            contentView.addSubview(rotateBtn)
+//            contentView.addSubview(rotateBtn)
         }
     }
     
@@ -218,9 +218,13 @@ class SEImageToolView: UIView {
             confirmBtn.frame = CGRect(x: contentView.bounds.width - 100, y: (contentView.bounds.height - 28) / 2, width: 90, height: 28)
         case .clip:
             cancelBtn.frame = CGRect(x: 0, y: (contentView.bounds.height - 44) / 2, width: 70, height: 44)
-            restoreBtn.frame = CGRect(x: (contentView.bounds.width - 140) / 2 - 35, y: (contentView.bounds.height - 44) / 2, width: 70, height: 44)
-            completeBtn.frame = CGRect(x: contentView.bounds.width - 70, y: (contentView.bounds.height - 44) / 2, width: 70, height: 44)
-            rotateBtn.frame = CGRect(x: completeBtn.frame.minX - restoreBtn.frame.origin.x, y: (contentView.bounds.height - 44) / 2, width: 70, height: 44)
+            restoreBtn.frame = CGRect(x: (contentView.bounds.width - 70) / 2, y: (contentView.bounds.height - 44) / 2, width: 70, height: 44)
+            completeBtn.frame = CGRect(x: contentView.bounds.width - 100, y: (contentView.bounds.height - 28) / 2, width: 90, height: 28)
+            
+//            cancelBtn.frame = CGRect(x: 0, y: (contentView.bounds.height - 44) / 2, width: 70, height: 44)
+//            restoreBtn.frame = CGRect(x: (contentView.bounds.width - 140) / 2 - 35, y: (contentView.bounds.height - 44) / 2, width: 70, height: 44)
+//            completeBtn.frame = CGRect(x: contentView.bounds.width - 70, y: (contentView.bounds.height - 44) / 2, width: 70, height: 44)
+//            rotateBtn.frame = CGRect(x: completeBtn.frame.minX - restoreBtn.frame.origin.x, y: (contentView.bounds.height - 44) / 2, width: 70, height: 44)
             
         }
     }

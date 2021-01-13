@@ -8,21 +8,23 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SEPhotoAlbum'
-  s.version          = '0.1.0'
+  s.version          = '0.3.0'
   s.summary          = 'photo album.'
   s.description      = 'swift photo album for iOS.'
   s.homepage         = 'https://github.com/seeEmil/SEPhotoAlbum'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'seeEmil' => '864009759@qq.com' }
   s.source           = { :git => 'https://github.com/seeEmil/SEPhotoAlbum.git', :tag => s.version.to_s }
-  s.pod_target_xcconfig = { 'VALID_ARCHS[sdk=iphonesimulator*]' => '' }
-  s.ios.deployment_target = '9.0'
+  # s.pod_target_xcconfig = { 'VALID_ARCHS[sdk=iphonesimulator*]' => '' }
+  s.ios.deployment_target = '10.0'
   
-  if ENV['is_source']
-      s.source_files = 'SEPhotoAlbum/Classes/**/*'
-  else
-      s.vendored_frameworks = 'SEPhotoAlbum/Products/SEPhotoAlbum.framework'
-  end
+  s.swift_version = '5.0'
+  
+#  if ENV['is_source']
+  s.source_files = 'SEPhotoAlbum/Classes/**/*'
+#  else
+#      s.vendored_frameworks = 'SEPhotoAlbum/Products/SEPhotoAlbum.framework'
+#  end
   s.resource_bundles = {
      'SEPhotoAlbum' => ['SEPhotoAlbum/Assets/*.png']
   }

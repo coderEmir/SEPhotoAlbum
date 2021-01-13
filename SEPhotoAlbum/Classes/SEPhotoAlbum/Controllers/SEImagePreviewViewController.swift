@@ -95,7 +95,7 @@ class SEImagePreviewViewController: UIViewController {
     private var shouldShowToolViews: Bool = true
     
     /// 是否显示导航栏
-    private var shouldShouNavigationBarWhenDisappear: Bool = true
+    private var shouldShowNavigationBarWhenDisappear: Bool = true
     
     /// 所在的导航控制器
     private weak var pickerController: SEImagePickerController? {
@@ -113,10 +113,10 @@ class SEImagePreviewViewController: UIViewController {
     
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
-        if shouldShouNavigationBarWhenDisappear {
+        if shouldShowNavigationBarWhenDisappear {
             navigationController?.setNavigationBarHidden(false, animated: true)
         }
-        shouldShouNavigationBarWhenDisappear = true
+        shouldShowNavigationBarWhenDisappear = true
     }
     
     override func viewDidLoad() {
@@ -207,7 +207,7 @@ class SEImagePreviewViewController: UIViewController {
             }
             self.imageDidEditedCallback?(imageModel)
         }
-        shouldShouNavigationBarWhenDisappear = false
+        shouldShowNavigationBarWhenDisappear = false
         navigationController?.pushViewController(clipVC, animated: true)
     }
     
@@ -275,8 +275,8 @@ class SEImagePreviewViewController: UIViewController {
             thumbCollectionView.beginInteractiveMovementForItem(at: indexPath)
         case .changed:
             do{}
-//            let targetPosition = locationCenter.applying(CGAffineTransform(translationX: tmpThumbCenterOffset.x, y: tmpThumbCenterOffset.y))
-//            thumbCollectionView.updateInteractiveMovementTargetPosition(targetPosition)
+            let targetPosition = locationCenter.applying(CGAffineTransform(translationX: tmpThumbCenterOffset.x, y: tmpThumbCenterOffset.y))
+            thumbCollectionView.updateInteractiveMovementTargetPosition(targetPosition)
         case .ended:
             
             thumbCollectionView.endInteractiveMovement()
